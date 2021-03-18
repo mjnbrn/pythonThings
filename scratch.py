@@ -4,8 +4,8 @@ import pandas as pd
 import time
 
 browser = webdriver.Firefox()
-login_url = "https://ep.ups.com/UPSRegistration/UPSLogin"
-ChecksUrl = "https://gems-ss.ups.com/psc/hrprod/EMPLOYEE/HRMS/c/M_UPS_MENU.PAYCHECK_VW_FLU.GBL"
+login_url = "https://ep.LOGINURLHERE.com"
+ChecksUrl = "https://gems-ss.URL_WHERE_CHECKS_ARE.com/Some/Extra/Path"
 
 browser.get(login_url)
 time.sleep(10)
